@@ -14,28 +14,6 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/%E5%A5%87%E5%86%B6-%E9%9A%8B-854997229/`,
     // Content of the About Me section
     about: `I come from Dalian, China. Graduated from Dalian University of Technology with CS as my major, and Japanese as secondary degree. Been working as a Back-end engineer at Tokyo from 2020. When at work I am fully dedicated at finish my job with clean, managable code and do my best in assisting my fellow co-workers. In private, I like to game with a sip of wine. Also, on vacations, I like traveling and enjoy wandering in different towns. I take "To bolding go where no one has gone before" from Star Trek as my moto, as I love to live on the bleeding edge of tech.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    // projects: [
-    //   {
-    //     name: 'Devfolio',
-    //     description:
-    //       'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-    //     link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   },
-    //   {
-    //     name: 'ChromeExtensionKit',
-    //     description:
-    //       'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-    //     link: 'https://chromeextensionkit.com/?ref=devfolio',
-    //   },
-    //   {
-    //     name: 'Another Cool Project',
-    //     description:
-    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-    //     link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   },
-    // ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'teamLab Inc.',
@@ -103,12 +81,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
