@@ -13,7 +13,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/%E5%A5%87%E5%86%B6-%E9%9A%8B-854997229/`,
     // Content of the About Me section
-    about: `I come from Dalian, China. Graduated from Dalian University of Technology with CS as my major, and Japanese as secondary degree. Been working as a Back-end engineer at Tokyo from 2020. When at work I am fully dedicated at finish my job with clean, managable code and do my best in assisting my fellow co-workers. In private, I like to game with a sip of wine. Also, on vacations, I like traveling and enjoy wandering in different towns. I take "To bolding go where no one has gone before" from Star Trek as my moto, as I love to live on the bleeding edge of tech.`,
+    about: `I come from Dalian, China. Graduated from Dalian University of Technology with CS as my major, and Japanese as secondary degree. Been working as a Back-end engineer at Tokyo from 2020. When at work I am fully dedicated at finish my job with clean, manageable code and do my best in assisting my fellow co-workers. In private, I like to game with a sip of wine. Also, on vacations, I like traveling and enjoy wandering in different towns. I take "To boldly go where no one has gone before" from Star Trek as my motto, as I love to live on the bleeding edge of tech.`,
     experience: [
       {
         name: 'teamLab Inc.',
