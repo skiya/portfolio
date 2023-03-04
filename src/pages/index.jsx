@@ -16,6 +16,7 @@ const Index = ({ data }) => {
   const projects = get(data, 'site.siteMetadata.projects', false);
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
+  const educations = get(data, 'site.siteMetadata.educations', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
   const noBlog = !posts || !posts.length;
 
@@ -27,9 +28,13 @@ const Index = ({ data }) => {
       {projects && projects.length && <SectionProjects projects={projects} />}
       {!noBlog && <SectionBlog posts={posts} />}
       {experience && experience.length && (
-        <SectionExperience experience={experience} />
+        <SectionExperience title="Experience" experience={experience} />
       )}
+
       {skills && skills.length && <SectionSkills skills={skills} />}
+      {educations && educations.length && (
+        <SectionExperience title="Education" experience={educations} />
+      )}
     </Layout>
   );
 };
@@ -58,6 +63,10 @@ export const pageQuery = graphql`
           link
         }
         skills {
+          name
+          description
+        }
+        educations {
           name
           description
         }

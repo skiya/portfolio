@@ -58,6 +58,19 @@ module.exports = {
           ['Docker, GCP, CI/CD (GitHub Actions, CodePipeline), API design, TDD'],
       },
     ],
+    // Optional: List your skills, they must have `name` and `description`.
+    educations: [
+      {
+        name: 'Dalian University of Technology',
+        description: [
+          'Computer Science and Technology(Japanese Intensive), Sep. 2015 - Jul. 2020',
+        ],
+      },
+      {
+        name: 'Hokkaido University',
+        description: ['Exchange Program(Information Engineering Course), Sep. 2018 - Jun. 2019'],
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
