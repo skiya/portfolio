@@ -30,7 +30,7 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'PostreSQL, MySQL, AWS DynamoDB',
+        description: 'PostgreSQL, MySQL, AWS DynamoDB',
       },
       {
         name: 'Certifications',
