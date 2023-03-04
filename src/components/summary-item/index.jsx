@@ -18,13 +18,16 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   return (
     <div className={classes.wrapper}>
       <h3
-        className={`${classes.name} ${
-          link ? 'hover:underline hover:text-black' : ''
-        }`}
+        className={`${classes.name} ${link ? 'hover:underline hover:text-black' : ''
+          }`}
       >
         {link ? linkContent : name}
       </h3>
-      <p className={classes.description}>{description}</p>
+      <p className={classes.description}>
+        {description.map((line) => {
+          return (<><span >{line}</span><br /></>);
+        })}
+      </p>
     </div>
   );
 };

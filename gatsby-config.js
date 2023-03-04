@@ -17,7 +17,18 @@ module.exports = {
     experience: [
       {
         name: 'teamLab Inc.',
-        description: 'Backend Developer, October 2020 - Present',
+        description: [
+          `Backend Developer, October 2020 - Present`,
+          `Tokyo`,
+          ``,
+          `Designed and developed several RESTful APIs with kotlin-spring-boot and MySQL database.`,
+          `Designed cloud infrastructures with AWS`,
+          `Refactored old internal package codes`,
+          `Helped train new members with coding skills`,
+          ``,
+          `Key achievement: `,
+          `Lead development of reusable payment packages in a future-proof way. Designed and implemented a kotlin DSL package for internal microservice querying which saved the code base from turning unmaintainable.`
+        ],
         link: 'https://www.team-lab.com/en/search/?q=Web%E3%82%B5%E3%82%A4%E3%83%88%E6%A7%8B%E7%AF%89'
       },
     ],
@@ -25,22 +36,26 @@ module.exports = {
     skills: [
       {
         name: 'Languages & Frameworks',
-        description:
-          'Kotlin(2+ yrs), Spring Boot(3+ yrs), Spring Cloud, JavaScript(2+ yrs), Typescript, AWS SAM, Serverless, Golang, Node.js, Next.js, Ruby on Rails, Dart, Flutter',
+        description: [
+          'Kotlin(2+ yrs), Spring Boot(3+ yrs), Spring Cloud',
+          'JavaScript(2+ yrs), Typescript, Node.js, Next.js',
+          'AWS SAM, Serverless, Golang',
+          'Ruby on Rails, Dart, Flutter',
+        ],
       },
       {
         name: 'Databases',
-        description: 'PostgreSQL, MySQL, AWS DynamoDB',
+        description: ['PostgreSQL, MySQL, AWS DynamoDB'],
       },
       {
         name: 'Certifications',
         description:
-          'AWS Solution Architect Associate, AWS Developer Associate',
+          ['AWS Solution Architect Associate, AWS Developer Associate'],
       },
       {
         name: 'Other',
         description:
-          'Docker, GCP, CI/CD (GitHub Actions, CodePipeline), API design, TDD',
+          ['Docker, GCP, CI/CD (GitHub Actions, CodePipeline), API design, TDD'],
       },
     ],
   },
