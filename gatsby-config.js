@@ -1,33 +1,37 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://devfolio.qiye.space`,
+    siteUrl: `https://qiye.space`,
     // Your Name
     name: 'Qiye SUI',
     // Main Site Title
     title: `This is me.`,
     // Description that goes under your name in main bio
-    description: `Clean coder. Problem solver. Idea generator.`,
+    description: `To boldly go where no one has gone before`,
     // Optional: Github account URL
-    github: `https://github.com/sqiye`,
+    github: `https://github.com/skiya`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/%E5%A5%87%E5%86%B6-%E9%9A%8B-854997229/`,
     // Content of the About Me section
-    about: `I come from Dalian, China. Graduated from Dalian University of Technology with CS as my major, and Japanese as secondary degree. Been working as a Back-end engineer at Tokyo since 2020. When at work I am fully dedicated at finishing my job with clean & manageable code and do my best in assisting my fellow co-workers. In private, gaming with a sip of wine is my favorate. Also, on vacations, I like traveling and enjoy wandering in different towns. I take "To boldly go where no one has gone before" from Star Trek as my motto, as I love to live on the bleeding edge of tech.`,
+    about: `I come from Dalian, China. Living in Tokyo since 2020.
+      I graduated from Dalian University of Technology (CS, Bachelor). 
+      Been working as Kotlin backend dev since 2020.
+      Can also do some frontend work (experienced with Vue3 & React).
+      Interested in Flutter as well as Rust.
+    `,
     experience: [
       {
         name: 'teamLab Inc.',
         description: [
-          `Backend Developer, October 2020 - Present`,
+          `Web Developer, October 2020 - Present`,
           `Tokyo`,
           ``,
-          `Designed and developed several RESTful APIs with kotlin-spring-boot and MySQL database.`,
-          `Designed cloud infrastructures with AWS`,
-          `Refactored old internal package codes`,
-          `Helped train new members with coding skills`,
+          `- Designed and developed RESTful APIs (SpringBoot/kotlin, MySQL)`,
+          `- Maintain AWS services (ECS, Codepipeline, Lambda, Batch, etc w/CDK)`,
+          `- Introduced porting DSL for internal CMS package api`,
+          `- Active as reviewer in past projects`,
           ``,
-          `Key achievement: `,
-          `Lead development of reusable payment packages in a future-proof way. Designed and implemented a kotlin DSL package for internal microservice querying which saved the code base from turning unmaintainable.`
+          `Lead development of reusable payment packages in a future-proof way.`,
         ],
         link: 'https://www.team-lab.com/en/search/?q=Web%E3%82%B5%E3%82%A4%E3%83%88%E6%A7%8B%E7%AF%89'
       },
@@ -37,15 +41,20 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description: [
-          'Kotlin(2+ yrs), Spring Boot(3+ yrs), Spring Cloud',
-          'JavaScript(2+ yrs), Typescript, Node.js, Next.js',
-          'AWS SAM, Serverless, Golang',
-          'Ruby on Rails, Dart, Flutter',
+          'experienced at work:',
+          '',
+          '- Spring Boot/kotlin (in production, 2020.10~)',
+          '- Nuxt.js/vue3 (pre-release, 2023.04~)',
+          '- Python3 (internal tool scripts)',
+          '',
+          'as hobby:',
+          '',
+          '- Flutter/dart, Rust',
         ],
       },
       {
         name: 'Databases',
-        description: ['PostgreSQL, MySQL, AWS DynamoDB'],
+        description: ['MySQL, AWS DynamoDB'],
       },
       {
         name: 'Certifications',
@@ -111,6 +120,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-dark-mode`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
